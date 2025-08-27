@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2025-08-27T10:30:00.000Z",
+    "repo": "jisr-react-native",
+    "pr_number": 123,
+    "branch": "feature/new-component",
+    "commit_sha": "abc1234",
+    "android_size": 15728640,
+    "ios_size": 18874368,
+    "android_error": null,
+    "ios_error": null,
+    "pr_url": "https://github.com/jisr-hr/jisr-react-native/pull/123"
+  },
+  {
+    "timestamp": "2025-08-26T14:15:00.000Z",
+    "repo": "jisr-react-native",
+    "pr_number": null,
+    "branch": "main",
+    "commit_sha": "def5678",
+    "android_size": 15234567,
+    "ios_size": 18123456,
+    "android_error": null,
+    "ios_error": null,
+    "pr_url": null
+  },
+  {
+    "timestamp": "2025-08-25T09:20:00.000Z",
+    "repo": "jisr-react-native",
+    "pr_number": 122,
+    "branch": "bugfix/memory-leak",
+    "commit_sha": "ghi9012",
+    "android_size": 14987654,
+    "ios_size": 17876543,
+    "android_error": null,
+    "ios_error": null,
+    "pr_url": "https://github.com/jisr-hr/jisr-react-native/pull/122"
+  },
+  {
+    "timestamp": "2025-08-24T16:45:00.000Z",
+    "repo": "jisr-react-native",
+    "pr_number": 121,
+    "branch": "feature/bundle-optimization",
+    "commit_sha": "jkl3456",
+    "android_size": 0,
+    "ios_size": 17654321,
+    "android_error": "Bundle failed",
+    "ios_error": null,
+    "pr_url": "https://github.com/jisr-hr/jisr-react-native/pull/121"
+  }
+]

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Metrics Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Mobile Metrics Dashboard</h1>
+        <p>
+          Tracking bundle sizes and performance metrics for mobile applications
+        </p>
+      </header>
+
+      <main>
+        <section class="metrics-section">
+          <h2>Bundle Size History</h2>
+          <div class="table-container">
+            <table id="bundle-table">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Version/PR</th>
+                  <th>Repository</th>
+                  <th>Android Size</th>
+                  <th>iOS Size</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="bundle-tbody">
+                <tr>
+                  <td colspan="6" class="loading">Loading data...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="stats-section">
+          <div class="stat-card">
+            <h3>Total Entries</h3>
+            <span id="total-entries">-</span>
+          </div>
+          <div class="stat-card">
+            <h3>Latest Android</h3>
+            <span id="latest-android">-</span>
+          </div>
+          <div class="stat-card">
+            <h3>Latest iOS</h3>
+            <span id="latest-ios">-</span>
+          </div>
+          <div class="stat-card">
+            <h3>Last Updated</h3>
+            <span id="last-updated">-</span>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
